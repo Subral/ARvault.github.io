@@ -1,5 +1,5 @@
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-
+window.onload = function () {
+    
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, 1000);
 let renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -159,3 +159,4 @@ function animate() {
 }
 
 animate();
+};
