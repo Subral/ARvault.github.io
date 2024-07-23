@@ -1,4 +1,4 @@
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js";
+import { OrbitControls } from "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js";
 window.onload = function () {
     
 let scene = new THREE.Scene();
